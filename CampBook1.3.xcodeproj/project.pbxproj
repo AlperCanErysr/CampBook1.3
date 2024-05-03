@@ -14,6 +14,7 @@
 		36EA41312BE2B1C6001FC3AD /* CampBook1_3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36EA412F2BE2B1C6001FC3AD /* CampBook1_3.xcdatamodeld */; };
 		36EA41332BE2B1C9001FC3AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36EA41322BE2B1C9001FC3AD /* Assets.xcassets */; };
 		36EA41362BE2B1C9001FC3AD /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36EA41352BE2B1C9001FC3AD /* Base */; };
+		36EA413E2BE58109001FC3AD /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36EA413D2BE58109001FC3AD /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		36EA41322BE2B1C9001FC3AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36EA41352BE2B1C9001FC3AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36EA41372BE2B1C9001FC3AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36EA413D2BE58109001FC3AD /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				36EA41262BE2B1C6001FC3AD /* AppDelegate.swift */,
 				36EA41282BE2B1C6001FC3AD /* SceneDelegate.swift */,
 				36EA412A2BE2B1C6001FC3AD /* ViewController.swift */,
+				36EA413D2BE58109001FC3AD /* DetailsVC.swift */,
 				36EA412C2BE2B1C6001FC3AD /* Main.storyboard */,
 				36EA41322BE2B1C9001FC3AD /* Assets.xcassets */,
 				36EA41342BE2B1C9001FC3AD /* LaunchScreen.storyboard */,
@@ -145,6 +148,7 @@
 				36EA41272BE2B1C6001FC3AD /* AppDelegate.swift in Sources */,
 				36EA41292BE2B1C6001FC3AD /* SceneDelegate.swift in Sources */,
 				36EA41312BE2B1C6001FC3AD /* CampBook1_3.xcdatamodeld in Sources */,
+				36EA413E2BE58109001FC3AD /* DetailsVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
