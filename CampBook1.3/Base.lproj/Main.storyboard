@@ -73,7 +73,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Agy-BK-yzb">
-                                <rect key="frame" x="89" y="714" width="214" height="72"/>
+                                <rect key="frame" x="89" y="740" width="214" height="72"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="72" id="1jL-ij-Wbf"/>
                                 </constraints>
@@ -99,14 +99,14 @@
                             <constraint firstItem="H4x-mc-2OW" firstAttribute="centerX" secondItem="Agy-BK-yzb" secondAttribute="centerX" id="Q7a-a9-4lk"/>
                             <constraint firstItem="mdJ-LP-nBi" firstAttribute="leading" secondItem="gEQ-3e-9c6" secondAttribute="leading" id="QGj-Xe-pqO"/>
                             <constraint firstItem="mdJ-LP-nBi" firstAttribute="leading" secondItem="36w-96-cwg" secondAttribute="leading" constant="39" id="RLa-mq-U23"/>
-                            <constraint firstItem="Agy-BK-yzb" firstAttribute="top" secondItem="H4x-mc-2OW" secondAttribute="bottom" constant="16" id="Veu-Me-uqz"/>
+                            <constraint firstItem="Agy-BK-yzb" firstAttribute="top" secondItem="H4x-mc-2OW" secondAttribute="bottom" constant="42" id="Veu-Me-uqz"/>
                             <constraint firstItem="mdJ-LP-nBi" firstAttribute="top" secondItem="xl0-bp-UlQ" secondAttribute="bottom" constant="26" id="eHF-bK-Pmw"/>
                             <constraint firstItem="gEQ-3e-9c6" firstAttribute="trailing" secondItem="H4x-mc-2OW" secondAttribute="trailing" id="fEm-6J-mbH"/>
                             <constraint firstItem="xl0-bp-UlQ" firstAttribute="leading" secondItem="36w-96-cwg" secondAttribute="leading" constant="59" id="g25-yW-86a"/>
                             <constraint firstItem="mdJ-LP-nBi" firstAttribute="centerX" secondItem="S3I-xR-ccz" secondAttribute="centerX" id="j8e-Ex-elr"/>
                             <constraint firstItem="gEQ-3e-9c6" firstAttribute="top" secondItem="mdJ-LP-nBi" secondAttribute="bottom" constant="50" id="nF2-RO-VP0"/>
                             <constraint firstItem="gEQ-3e-9c6" firstAttribute="leading" secondItem="H4x-mc-2OW" secondAttribute="leading" id="ocw-0B-yia"/>
-                            <constraint firstItem="36w-96-cwg" firstAttribute="bottom" secondItem="Agy-BK-yzb" secondAttribute="bottom" constant="32" id="u6W-1f-eua"/>
+                            <constraint firstItem="36w-96-cwg" firstAttribute="bottom" secondItem="Agy-BK-yzb" secondAttribute="bottom" constant="6" id="u6W-1f-eua"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Y81-XQ-O3Z"/>
@@ -140,6 +140,7 @@
             <point key="canvasLocation" x="139.69465648854961" y="4.9295774647887329"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.69019607839999997" green="0.3803921569" blue="0.3803921569" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

@@ -14,8 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         print("Hello Swift")
+        navigationController?.navigationBar.topItem?.rightBarButtonItem=UIBarButtonItem(barButtonSystemItem: UIBarButtonItem.SystemItem.add, target: self, action: #selector(addButtonClicked))
     }
-
-
+    @objc func addButtonClicked(){
+        performSegue(withIdentifier: "toDetailsVC", sender: nil)
+    }
 }
 
