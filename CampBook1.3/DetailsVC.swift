@@ -16,8 +16,15 @@ class DetailsVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //Recognizers
+        
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
         view.addGestureRecognizer(gestureRecognizer)
+        
+        //Can the user click on the image?
+        imageView.isUserInteractionEnabled = true
+        let imageTapRecognizer = UITapGestureRecognizer(target: self, action: #selector(selectImage))
+        imageView.addGestureRecognizer(imageTapRecognizer)
     }
     
 
@@ -27,5 +34,9 @@ class DetailsVC: UIViewController {
     @objc func hideKeyboard(){
         view.endEditing(true)
         print("clickKeyboard")
+    }
+    @objc func selectImage(){
+        //loading...
+        print("selectimage")
     }
 }
