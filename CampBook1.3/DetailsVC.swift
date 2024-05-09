@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DetailsVC: UIViewController {
+class DetailsVC: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameText: UITextField!
@@ -36,7 +36,8 @@ class DetailsVC: UIViewController {
         print("clickKeyboard")
     }
     @objc func selectImage(){
-        //loading...
+        let picker = UIImagePickerController()
+        picker.delegate = self
         print("selectimage")
     }
 }
