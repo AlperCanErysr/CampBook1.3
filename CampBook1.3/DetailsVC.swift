@@ -36,8 +36,17 @@ class DetailsVC: UIViewController, UIImagePickerControllerDelegate, UINavigation
         print("clickKeyboard")
     }
     @objc func selectImage(){
-        let picker = UIImagePickerController()
+        let picker = UIImagePickerController() // go to user's media library
         picker.delegate = self
+        picker.sourceType = .photoLibrary // Where will it open?
+        picker.allowsEditing = true // Is it possible to edit photos?
+        present(picker, animated: true, completion: nil) //alert vs. vs.
+        
         print("selectimage")
+    }
+    // What happens after the photo is selected?
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        imageView.image = info[.originalImage] as? UIImage
+        self.dismiss(animated: true, completion: nil)
     }
 }
